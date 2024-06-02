@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+
+}
+
+.main-container{
+    width: 500px;
+    background-color: hsl(244, 38%, 16%);
+    border: white 5px solid;
+    color: white;
+}
