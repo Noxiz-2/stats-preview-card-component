@@ -8,8 +8,56 @@ body {
 }
 
 .main-container{
-    width: 500px;
+    width: 1000px;
+    height: 400px;
     background-color: hsl(244, 38%, 16%);
-    border: white 5px solid;
     color: white;
+    display: flex;
+}
+
+
+#title {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 50px;
+    gap: 10px;
+
+}
+
+
+#insights {
+    color: hsl(277, 64%, 61%);
+}
+
+
+
+.statistics {
+    display: flex;
+    gap: 60px;
+    margin: 70px;
+}
+
+
+.numbers {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 5px;
+}
+
+
+.light-texts {
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.image {
+    width: 450px;
+    height: 400px;
+    
 }
